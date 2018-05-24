@@ -18,7 +18,7 @@ bot.on('message', message => {
         .setTitle("Commande du ZBot !")
         .addField("/help", "Affiche la liste des commandes du bot !")
         .setFooter("© ZDown")
-        .setColor("0x2E9AFE")
+        .setColor("0xd26cba")
         .setTimestamp()
         .setThumbnail(message.guild.iconURL)
     message.channel.sendEmbed(embed)
