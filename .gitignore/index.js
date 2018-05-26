@@ -31,7 +31,7 @@ bot.on('message', message => {
         var embed = new Discord.RichEmbed()
             .setColor('#24A493')
             .setAuthor("Commandes du ZBot !", message.guild.iconURL)
-            .addField("/help", "Affiche la liste des commandes du bot !")
+            .addField("     /help", "     Affiche la liste des commandes du bot !")
         message.channel.sendEmbed(embed);
         console.log("Commande Help demandée !");
     }
